@@ -1,4 +1,4 @@
-### study-of-basic-gates
+### EXP1:Study of basic digital IC’s and verification of truth tables for different logic gates, realization using Verilog
 
 **AIM:** 
 
@@ -64,16 +64,38 @@ Y= A⊕B
 
 **PROGRAM**
 
-Program for logic gates and verify its truth table in quartus using Verilog programming
-
- Developed by: RegisterNumber: 
+~~~
+module project1(a,b,c,d,e,x,y,z);
+input a,b;
+output c,d,e,x,y,z;
+and (c,a,b);
+or (d,a,b);
+xor(e,a,b);
+nand(x,a,b);
+nor(y,a,b);
+xnor(z,a,b);
+endmodule
+~~~
+ Developed by:VESLIN ANISH A
+ 
+ RegisterNumber: 212223240175
  
 **Logic symbol & Truthtable**
 
+![WhatsApp Image 2024-03-14 at 20 50 56_18fa47a3](https://github.com/veslin23000303/study-of-basic-gates/assets/151148539/570c0c71-f587-4c5f-b25f-e03e71e34d6f)
+
+
 **RTL realization Output:** 
 
-**RTL**
+![WhatsApp Image 2024-03-14 at 20 50 56_de5a9ac4](https://github.com/veslin23000303/study-of-basic-gates/assets/151148539/f8b2e7ea-4844-4c60-a4d2-6e974c1cbcd8)
+
+**Timing Diagram**
+
+![WhatsApp Image 2024-03-14 at 20 50 56_c161bc64](https://github.com/veslin23000303/study-of-basic-gates/assets/151148539/3398dc0e-db23-4235-9bc6-9fa46cd25435)
+
 
 **Result:**
+
+Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
 
 
